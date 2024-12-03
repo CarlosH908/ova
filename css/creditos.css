@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.781);
+    font-family: Quicksand;
+    background: rgb(66,13,152);
+background: linear-gradient(143deg, rgba(66,13,152,1) 0%, rgba(94,35,166,1) 100%);
+}
+main {
+    display: flex;
+    background: rgb(1,32,77);
+background: linear-gradient(137deg, rgba(1,32,77,1) 0%, rgba(0,74,223,1) 100%);
+    width: 85%;
+    height: 600px;
+    margin: auto;
+    border-radius: 5px 0px 5px 5px;
+    box-shadow: 0 0 40px 0 #0007;
+}
+.estilo-boton {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30%;
+    letter-spacing: 1px;
+    background: rgb(16,0,255);
+    box-shadow: 0 0 40px 0 #0007;
+background: linear-gradient(143deg, rgba(16,0,255,1) 0%, rgba(0,245,255,1) 100%);
+}
+
+.cabeza {
+    box-shadow: 0 0 40px 0 #0007;
+    width: 85%;
+    height: 60px;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(44,83,91,1) 100%);
+    display: flex;
+    align-items: center;
+}
+a:hover {
+    color: gray;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    box-shadow: 0 0 40px 0 #0007;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 600px;
+    background-color: rgb(1, 13, 48);
+    justify-content: start;
+    align-items: center;
+    border-radius: 0px 0px 0px 5px;
+}
+.menu svg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.iconP {
+    box-shadow: 0 0 40px 0 #0007;
+margin-left: 25px;
+}
+
+.home {
+    box-shadow: 0 0 40px 0 #0007;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.credits {
+    margin-top: 120px;
+}
+
+.presentacion {
+    box-shadow: 0 0 40px 0 #0007;
+    padding: 10px;
+    width: 30%;
+    margin-left: 10%;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cameraicon {
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.card {
+    box-shadow: 0 0 40px 0 #0007;
+    background: rgb(13,152,85);
+    background: linear-gradient(143deg, rgba(13,152,85,1) 0%, rgba(35,79,166,1) 100%);    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 100px;
+}
+
+p {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    padding: 5px;
+    letter-spacing: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    background: rgb(0,241,255);
+background: linear-gradient(351deg, rgba(0,241,255,1) 0%, rgba(35,79,166,1) 100%);
+color: white;
+border: 2px solid rgb(5, 226, 215);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    color: grey;
+}
+
+

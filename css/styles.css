@@ -1,0 +1,234 @@
+body {
+    max-height: 1000px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.781);
+    font-family: Quicksand;
+    background: rgb(66,13,152);
+background: linear-gradient(143deg, rgba(66,13,152,1) 0%, rgba(94,35,166,1) 100%);
+}
+main {
+    box-sizing: border-box;
+    max-width: 85%;
+    display: flex;
+    background: rgb(1,32,77);
+background: linear-gradient(137deg, rgba(1,32,77,1) 0%, rgba(0,74,223,1) 100%);
+    width: 85%;
+    height: 600px;
+    margin: auto;
+    border-radius: 5px 0px 5px 5px;
+    box-shadow: 0 0 40px 0 #0007;
+    max-height: 800px;
+}
+.estilo-boton {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 30%;
+    letter-spacing: 1px;
+    background: rgb(16,0,255);
+    box-shadow: 0 0 40px 0 #0007;
+background: linear-gradient(143deg, rgba(16,0,255,1) 0%, rgba(0,245,255,1) 100%);
+}
+
+.cabeza {
+    max-width: 85%;
+    box-shadow: 0 0 40px 0 #0007;
+    width: 85%;
+    height: 60px;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(143deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(44,83,91,1) 100%);
+    display: flex;
+    align-items: center;
+}
+a:hover {
+    color: gray;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    min-width: 80px;
+    box-shadow: 0 0 40px 0 #0007;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 600px;
+    background-color: rgb(1, 13, 48);
+    align-items: center;
+    border-radius: 0px 0px 0px 5px;
+}
+.menu svg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.iconP {
+    box-shadow: 0 0 40px 0 #0007;
+margin-left: 25px;
+}
+
+.home {
+    box-shadow: 0 0 40px 0 #0007;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.credits {
+    margin-top: 120px;
+}
+
+.presentacion {
+    max-width: 250px;
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 10px;
+}
+
+.cameraicon {
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.objetivos {
+    max-width: 400px;
+    margin-left: 20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+li {
+    padding: 20px;
+}
+
+.aspectos {
+    max-width: 500px;
+    margin-left: 120px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 #0007;
+}
+
+
+
+
+
+.CARDS {
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 10px;
+    display: inline-flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+.concepto {
+    margin-top: 10px;
+    max-width: 600px;
+    max-height: 100px;
+    font-size: 12px;
+    box-shadow: 0 0 40px 0 #0007;
+    background: rgb(0,67,138);
+background: linear-gradient(106deg, rgba(0,67,138,1) 0%, rgba(50,111,110,1) 100%);
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.cardB {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url("https://www.blogdelfotografo.com/wp-content/uploads/2023/07/apertura-diafragma.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.cardA {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1650546793922-70AZAMO3HW7DMSTHKZA7/que-es-el-iso.jpg?format=1000w");
+    background-size: cover;
+    background-position: center;
+}
+
+.cardC{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/ES-la-velocidad-pod-12-720x411?$pjpeg$&jpegSize=200&wid=720");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.espacio {
+    margin: 5px;
+}
+
+.ejemplos {
+    margin-top: 10px;
+    margin-left: 100px;
+    max-width: 500px;
+    max-height: 170px;
+    grid-column: 2;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 #0007;
+}
+
+.imagenes-nocturnas {
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 10px;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.ejemplosA{
+    width: 100px;
+    height: 100px;
+    background-image: url("https://cdn.masterclassphotographers.com/wp-content/uploads/2020/03/18141455/fotografia_nocturna_paisajista.jpg");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+}
+.ejemplosB{
+    width: 100px;
+    height: 100px;
+    background-image: url("https://lh3.googleusercontent.com/p6CD5C9G3s8-77HxmZXLRGuJGBN2wcK63XBatpKQqG4fD-b7uWNd-3hKXLfJF3wGERyDUf3KtwTM08IN3qAlpClhNG7_SUe-_wAZzUEq2TwkaB2Z1j-F-X-WriCpEDkmBviXeUHP");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+}
+.ejemplosC{
+    width: 100px;
+    height: 100px;
+    background-image: url("https://www.objetivovalencia.es/wp-content/uploads/taller-fotografia-nocturna-avanzado-vialactea-7.jpg");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+}
+
+.content {
+display: grid;
+grid-template-columns: 400px 665px;
+grid-template-rows: 300px 100px;
+}
